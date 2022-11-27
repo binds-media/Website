@@ -738,7 +738,7 @@ img {
 }
 
 .cta-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/deskBackground.jpg") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/bg/deskBackground.webp") no-repeat fixed center center / cover;
 }
 
 .breadcrumb-area {
