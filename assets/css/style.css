@@ -722,7 +722,7 @@ img {
 
 /*BACKGROUND IMAGES*/
 .welcome-area {
-    background: rgba(0, 0, 0, 0) url("../img/bg/Background.webp") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/bg/background3.webp") no-repeat fixed center center / cover;
 }
 
 .homepage-2 .welcome-area {
