@@ -742,7 +742,7 @@ img {
 }
 
 .breadcrumb-area {
-    background: rgba(0, 0, 0, 0) url(""../img/bg/world.webp"") no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url("../img/bg/world.webp") no-repeat fixed center center / cover;
 }
 
 .blog .breadcrumb-area {
