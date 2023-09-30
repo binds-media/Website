@@ -206,7 +206,7 @@ td, th {
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  content: url("https://i.postimg.cc/KY9kpRCp/nav-nar-menu.png");
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
