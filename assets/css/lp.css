@@ -292,6 +292,92 @@ html[data-w-dynpage] [data-w-cloak] {
   color: rgba(0, 0, 0, 0) !important;
 }
 
+.w-webflow-badge, .w-webflow-badge * {
+  z-index: auto;
+  visibility: visible;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  float: none;
+  clear: none;
+  box-shadow: none;
+  opacity: 1;
+  direction: ltr;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  text-align: inherit;
+  letter-spacing: inherit;
+  -webkit-text-decoration: inherit;
+  text-decoration: inherit;
+  text-indent: 0;
+  text-transform: inherit;
+  text-shadow: none;
+  font-smoothing: auto;
+  vertical-align: baseline;
+  cursor: inherit;
+  white-space: inherit;
+  word-break: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  background: none;
+  border: 0 rgba(0, 0, 0, 0);
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+  transition: none;
+  display: block;
+  position: static;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  overflow: visible;
+  transform: none;
+}
+
+.w-webflow-badge {
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
+  visibility: visible !important;
+  z-index: 2147483647 !important;
+  color: #aaadb0 !important;
+  opacity: 1 !important;
+  width: auto !important;
+  height: auto !important;
+  background-color: #fff !important;
+  border-radius: 3px !important;
+  margin: 0 !important;
+  padding: 6px 8px 6px 6px !important;
+  font-size: 12px !important;
+  line-height: 14px !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  position: fixed !important;
+  top: auto !important;
+  bottom: 12px !important;
+  left: auto !important;
+  right: 12px !important;
+  overflow: visible !important;
+  transform: none !important;
+}
+
+.w-webflow-badge > img {
+  visibility: visible !important;
+  opacity: 1 !important;
+  vertical-align: middle !important;
+  display: inline-block !important;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
@@ -2244,7 +2330,7 @@ a {
   letter-spacing: 2px;
   text-transform: capitalize;
   background-color: #b90edf;
-  background-image: url("https://i.postimg.cc/QtWQsQ5z/Cerchio-Viola.png");
+  background-image: url("https://uploads-ssl.webflow.com/64fef0d38c6659c39e5e2c2c/65006e74a13442353606d481_Progetto%20senza%20titolo2.png");
   background-position: 0 140px;
   background-repeat: no-repeat;
   background-size: 300px 500px;
@@ -2471,7 +2557,7 @@ a {
   text-align: left;
   text-transform: capitalize;
   background-color: #b90edf;
-  background-image: url("https://i.postimg.cc/8PGRQrCy/Cerchio-Viola-piccolo.png");
+  background-image: url("https://uploads-ssl.webflow.com/64fef0d38c6659c39e5e2c2c/65004753ca983fcfebd366bb_Progetto%20senza%20titolo.png");
   background-position: 0 140px;
   text-decoration: none;
   display: flex;
