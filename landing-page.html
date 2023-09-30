@@ -312,6 +312,38 @@
                 <div class="calendly-inline-widget" data-url="https://calendly.com/bindsmedia/free-discovery-call?hide_gdpr_banner=1" style="width:100%;height:700px;"></div>
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
                     <!-- Calendly inline widget end -->
+            <script>
+                    calendlyCustomThankYouPageURL="https://binds-media.com/thank-you.html";
+            </script>
+
+            <script>
+                function isCalendlyEvent(e){
+        return e.data.event && e.data.event.indexOf('calendly') === 0;
+    };
+
+    window.addEventListener('message',function(e){
+
+        if(isCalendlyEvent(e)){
+            console.log(e.data);
+
+            if(e.data.event == "calendly.event_type_viewed"){
+                console.log("Calendly - viewed");
+            }
+
+            if(e.data.event == "calendly.date_and_time_selected"){
+                console.log("Calendly - Date and time selected");
+            }
+
+            if(e.data.event == "calendly.event_scheduled"){
+                console.log("Calendly - SESSION BOOKED LET?S EG REDIRECT WITH A FREE PLAN");
+                window.top.location = calendlyCustomThankYouPageURL;
+            }
+        }
+
+});
+
+console.log("calendly event listener & redirection up and running");
+            </script>
         </div>
         
     </section>
