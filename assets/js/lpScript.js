@@ -11,7 +11,7 @@
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations under
- * the License.
+ * the License. 
  */
 /* Web Font Loader v1.6.26 - (c) Adobe Systems, Google. License: Apache 2.0 */(function () {
     function aa(a, b, c) { return a.call.apply(a.bind, arguments) } function ba(a, b, c) { if (!a) throw Error(); if (2 < arguments.length) { var d = Array.prototype.slice.call(arguments, 2); return function () { var c = Array.prototype.slice.call(arguments); Array.prototype.unshift.apply(c, d); return a.apply(b, c) } } return function () { return a.apply(b, arguments) } } function p(a, b, c) { p = Function.prototype.bind && -1 != Function.prototype.bind.toString().indexOf("native code") ? aa : ba; return p.apply(null, arguments) } var q = Date.now || function () { return +new Date }; function ca(a, b) { this.a = a; this.m = b || a; this.c = this.m.document } var da = !!window.FontFace; function t(a, b, c, d) { b = a.c.createElement(b); if (c) for (var e in c) c.hasOwnProperty(e) && ("style" == e ? b.style.cssText = c[e] : b.setAttribute(e, c[e])); d && b.appendChild(a.c.createTextNode(d)); return b } function u(a, b, c) { a = a.c.getElementsByTagName(b)[0]; a || (a = document.documentElement); a.insertBefore(c, a.lastChild) } function v(a) { a.parentNode && a.parentNode.removeChild(a) }
