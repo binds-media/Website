@@ -1978,6 +1978,9 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+   .hero-section {
+    align-items: center;
+  }
   .w-nav[data-collapse="small"] .w-nav-menu {
     display: none;
   }
