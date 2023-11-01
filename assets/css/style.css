@@ -868,6 +868,9 @@ textarea.w-input, textarea.w-select {
 }
 
 @media screen and (max-width: 767px) {
+   .hero-section {
+    align-items: center;
+  }
   .w-hidden-main, .w-hidden-medium {
     display: inherit !important;
   }
